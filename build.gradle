@@ -7,9 +7,13 @@ plugins {
 
 
 
-application {
-    mainClass = 'com.lagalt.LagaltProjectApplication'
-}
+jar {
+  manifest {
+    attributes(
+      'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+      'Main-Class': 'com.lagalt.LagaltProjectApplication'
+    )
+  }
 
 
 
