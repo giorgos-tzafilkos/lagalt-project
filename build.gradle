@@ -13,6 +13,7 @@ jar {
       'Main-Class': 'com.lagalt.LagaltProjectApplication'
     )
   }
+  }
 
 
 
