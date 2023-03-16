@@ -1,9 +1,9 @@
 -- lagalt_users
 INSERT INTO lagalt_user (user_name)
-VALUES ('George Tzafilkos'),    -- 1
-       ('George Pegias'),       -- 2
-       ('Nomikos Kampourakis'), -- 3
-       ('Giannis Tripodis');    -- 4
+VALUES ('George1 Tzafilkos'),    -- 1
+       ('George1 Pegias'),       -- 2
+       ('Nomikos1 Kampourakis'), -- 3
+       ('Giannis1 Tripodis');    -- 4
 -- topics
 INSERT INTO topic (topic_name)
 VALUES ('MUSIC'),            -- 1
