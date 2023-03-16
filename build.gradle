@@ -6,9 +6,7 @@ plugins {
 
 // Apply the Spring Boot Gradle plugin
 apply plugin: 'org.springframework.boot'
-springBoot {
-    'mainClassName' = 'com.lagalt.LagaltProjectApplication'
-}
+
 
 group = 'com.lagalt'
 version = '0.0.1-SNAPSHOT'
